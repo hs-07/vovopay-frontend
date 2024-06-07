@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Utendo";
+  src: url("../src/assets/fonts/Utendo-Regular-BF65b1be04f3a0e.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Utendo";
+  src: url("../src/assets/fonts/Utendo-Semibold-BF65b1be04d814f.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Utendo";
+  src: url("../src/assets/fonts/Utendo-Bold-BF65b1be0491ea7.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../src/assets/fonts/Sofia\ Pro\ Regular\ Az.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../src/assets/fonts/Sofia\ Pro\ Bold\ Az.otf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.ticker {
+  display: flex;
+  animation: ticker-scroll 10s linear infinite;
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.ticker li {
+  flex-shrink: 0;
+}
