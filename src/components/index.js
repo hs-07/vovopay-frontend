@@ -6,5 +6,6 @@ export { default as Section4 } from "./section4.jsx";
 export { default as Section5 } from "./section5.jsx";
 export { default as Section6 } from "./section6.jsx";
 export { default as Section7 } from "./section7.jsx";
+export { default as Section8 } from "./section8.jsx";
 export { default as Footer } from "./footer.jsx";
 export { default as TickerBanner } from "./ticker-banner.jsx";

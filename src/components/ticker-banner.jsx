@@ -11,7 +11,7 @@ const TickerBanner = () => {
   ];
 
   return (
-    <div className="w-full overflow-x-hidden mb-24 py-2 lg:py-4 bg-[#0C3506]">
+    <div className="w-full overflow-x-hidden py-2 lg:py-4 bg-[#0C3506]">
       <ul className="ticker flex items-center">
         {tickers.concat(tickers).map((ticker, index) => (
           <li

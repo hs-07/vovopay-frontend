@@ -9,6 +9,7 @@ import {
   Section5,
   Section6,
   Section7,
+  Section8,
   Footer,
 } from "../components";
 
@@ -25,6 +26,7 @@ const Home = () => {
       <Section5 />
       <Section6 />
       <Section7 />
+      <Section8 />
       <Footer />
     </div>
   );
