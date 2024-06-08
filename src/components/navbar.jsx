@@ -11,7 +11,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-full font-sofia">
       <nav className="hidden lg:flex w-full h-[6rem] px-20 py-4 items-center justify-between ">
         <div className="h-full">
           <img src="/images/logo.svg" alt="remesa" className="h-full py-2" />
