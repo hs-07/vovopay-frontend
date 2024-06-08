@@ -6,6 +6,7 @@ import {
   TickerBanner,
   Section3,
   Section4,
+  Section5,
 } from "../components";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Section3 />
       <TickerBanner />
       <Section4 />
+      <Section5 />
     </div>
   );
 };
