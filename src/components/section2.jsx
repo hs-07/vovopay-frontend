@@ -2,7 +2,7 @@ import React from "react";
 
 const section2 = () => {
   return (
-    <div className="flex flex-col px-4 md:px-6 lg:px-20">
+    <div className="flex flex-col px-4 md:px-6 lg:px-20 mt-24">
       <div className="flex justify-center w-full pb-20">
         <h1 className="font-utendo font-[500] text-[24px] lg:text-[46px] text-center w-full lg:w-2/3 leading-[1] text-[#0C3506]">
           With vovopay, managing your finances has never been easier :
