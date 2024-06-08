@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Section1, TickerBanner } from "../components";
+import { Navbar, Section1, Section2, TickerBanner } from "../components";
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
       <Navbar />
       <Section1 />
       <TickerBanner />
+      <Section2 />
     </div>
   );
 };
