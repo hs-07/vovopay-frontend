@@ -47,7 +47,7 @@ const section2 = () => {
             transfers.
           </p>
         </div>
-        <div className="bg-[#C4F2A4]  rounded-3xl px-6 md:px-10 pt-6 md:pt-10 pb-14 md:pb-20 gap-6 flex flex-col">
+        <div className="bg-[#7BD942]  rounded-3xl px-6 md:px-10 pt-6 md:pt-10 pb-14 md:pb-20 gap-6 flex flex-col">
           <img src="/images/exchange.svg" alt="" className="w-16 md:w-24" />
           <p className="font-utendo text-[#0C3506] text-[20px] md:text-[28px] lg:text-[32px] leading-[1] font-[600]">
             Send and receive money with ease, whether it's to friends, family,
