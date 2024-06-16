@@ -14,11 +14,11 @@ const section8 = () => {
             </span>
 
             <div className="flex w-full gap-4 md:flex-row flex-col items-center">
-              <button className="px-4 w-fit gap-2 rounded-lg bg-[#0C3506] text-[#9FE870] border-2 border-[#9FE870] font-utendo py-2 h-[50px] flex justify-center items-center">
+              <button className="px-4 w-56 gap-2 rounded-lg bg-[#0C3506] text-[#9FE870] border-2 border-[#9FE870] font-utendo py-2 h-[50px] flex justify-center items-center">
                 <img src="/images/google-play.svg" alt="" className="" />
                 Google Play Store
               </button>
-              <button className="px-4 w-fit gap-2 rounded-lg bg-[#0C3506] text-[#9FE870] border-2 border-[#9FE870] font-utendo py-2 h-[50px] flex justify-center items-center">
+              <button className="px-4 w-56 gap-2 rounded-lg bg-[#0C3506] text-[#9FE870] border-2 border-[#9FE870] font-utendo py-2 h-[50px] flex justify-center items-center">
                 <img src="/images/apple.svg" alt="" className="" />
                 App Store
               </button>
