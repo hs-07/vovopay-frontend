@@ -22,25 +22,25 @@ const section5 = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:gap-8">
           <img src="/images/p-2.svg" alt="" className="" />
           <span className="font-sofia text-[14px] md:text-[16px]">
-            aksaunis@gmail.com
+            mariamark@gmail.com
           </span>
         </div>
         <div className="flex flex-col justify-center items-center gap-4 md:gap-8">
           <img src="/images/p-3.svg" alt="" className="" />
           <span className="font-sofia text-[14px] md:text-[16px]">
-            $yareenyasir
+            elinadavid42@apple.com
           </span>
         </div>
         <div className="flex flex-col justify-center items-center gap-4 md:gap-8">
           <img src="/images/p-4.svg" alt="" className="" />
           <span className="font-sofia text-[14px] md:text-[16px]">
-            rajkumar@apple.com
+            $yujin145
           </span>
         </div>
         <div className="flex flex-col justify-center items-center gap-4 md:gap-8">
           <img src="/images/p-5.svg" alt="" className="" />
           <span className="font-sofia text-[14px] md:text-[16px]">
-            saimreen@gmail.com
+            shenjuna@gmail.com
           </span>
         </div>
         <div className="flex flex-col justify-center items-center gap-4 md:gap-8">
