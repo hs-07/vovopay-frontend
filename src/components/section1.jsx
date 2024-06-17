@@ -43,8 +43,17 @@ const section1 = () => {
       </div>
 
       <div className="w-full lg:w-[60%] flex gap-10 relative flex-col lg:flex-row">
-        <div className="order-2 lg:order-1">
-          <img src="/images/hero-img.svg" alt="screen" className="" />
+        <div className="order-2 lg:order-1 flex justify-center lg:justify-start">
+          <img
+            src="/images/hero-img.svg"
+            alt="screen"
+            className="lg:flex hidden"
+          />
+          <img
+            src="/images/hero-img-mini.svg"
+            alt="screen"
+            className="flex lg:hidden"
+          />
         </div>
         <div className="flex flex-col gap-10 order-1 lg:order-2 items-center lg:items-start w-full lg:w-fit">
           <img src="/images/vp-logo.svg" alt="logo" className="w-16" />
